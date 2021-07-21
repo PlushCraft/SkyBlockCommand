@@ -1,0 +1,10 @@
+main: ga.guacaplushy.PlushCraft.SkyBlock.Plugin
+version: 1.0
+name: 'SkyBlockNPCCommand'
+api-version: '1.17'
+depend:
+  - 'IridiumSkyblock'
+commands:
+  islandmain:
+    usage: '/islandmain <user>'
+    description: 'Creates/goes to the island'
